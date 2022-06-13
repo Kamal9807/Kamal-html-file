@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+  <title>hello world</title>
+  <h1 style="text-align: center">welcome to our page</h1>
+  <body style="background-color: rgb(235, 226, 151)">
+    <style>
+      form {
+        color: black;
+        font-size: large;
+        border: 2px solid;
+        text-align: center;
+        background-image: url("https://images.pexels.com/photos/2101187/pexels-photo-2101187.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+      }
+      table,
+      th,
+      td {
+        border: 1px solid;
+        padding: 20px;
+      }
+      .fname {
+        font-family: "Courier New", Courier, monospace;
+      }
+      .division {
+        text-shadow: 2px 2px royalblue;
+        font-size: large;
+        font-style: italic;
+      }
+      .apple {
+        font-size: xx-large;
+        color: lawngreen;
+      }
+      .h4 {
+        margin: 25px 50px;
+        border: 1px solid;
+        background-color: aquamarine;
+        text-align: center;
+      }
+      .unordered {
+        margin: 25px 50px;
+        border: 1px solid;
+        background-color: palevioletred;
+        text-align: center;
+      }
+      .span {
+        padding: 10px;
+        background-color: bisque;
+        width: 50%;
+      }
+      footer {
+        text-align: center;
+        background-color: coral;
+      }
+      .em {
+        margin: 10px;
+        text-align: center;
+        text-decoration: dotted;
+        color: brown;
+      }
+    </style>
+    <mark> <p>Note:</p></mark>
+    <strong>
+      <p style="color: blueviolet">
+        Coronaviruses are a group of related RNA viruses that cause diseases in
+        mammals and birds. In humans and birds, they cause respiratory tract
+        infections that can range from mild to lethal.
+      </p>
+    </strong>
+    <main><p>it is easy to learn</p></main>
+    <br /><br />
+    <form>
+      <h1 style="color: rgb(54, 1, 1)"><u> REGISTRATION FORM</u></h1>
+      <label class="fname">FIRST NAME :</label>
+      <input type="text" placeholder="firstname" /> <br /><br />
+      <label class="lname">LAST NAME :</label>
+      <input type="text" placeholder="lastname" /><br /><br />
+      <label class="DOB">DOB :</label>
+      <input type="date" /><br /><br />
+      <label text="male">Male</label>
+      <input type="checkbox" />
+      <label for="female">Female</label><input type="radio" id="female" />
+      <br /><br />
+      <div><label text="address">ADDRESS :</label><input type="text" /></div>
+      <br /><br />
+      <a
+        href="file:///home/kamalnath/Documents/HTML/First.html"
+        target="_blank"
+      >
+        <input type="button" value="submit" />
+      </a>
+    </form>
+    <br /><br />
+    <header class="header">list of content</header>
+    <br />
+    <br />
+    <span class="span"> the page is not available </span>
+    <br /><br />
+    <hr />
+    <h3><u> Table Information </u></h3>
+    <table style="background-color: rgb(172, 201, 172)">
+      <tr>
+        <th>S.no</th>
+        <th>name</th>
+        <th>address</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>xxx</td>
+        <td>yyy</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>aaa</td>
+        <td>bbb</td>
+      </tr>
+      <tr>
+        <th aria-colspan="3">hhhhh</th>
+        <td>uuuuu</td>
+      </tr>
+    </table>
+    <div>
+      <h3 style="color: rgb(99, 3, 3)"><u>list of laptops</u></h3>
+      <h4 class="h4"><u>ordered list</u></h4>
+      <ul class="division">
+        <li class="dell">DELL</li>
+        <a class="apple" href="https://www.apple.com/in/iphone/" target="_blank"
+          ><li>Apple</li></a
+        >
+        <li>HP</li>
+        <li>lenovo</li>
+        <li>asus</li>
+      </ul>
+    </div>
+    <hr />
+    <h4 class="unordered"><u> unordered list</u></h4>
+    <ol>
+      <li>eagle</li>
+      <li>sparrow</li>
+      <dl>parrot</dl>
+    </ol>
+    <br />
+    <br />
+    <h2><u>please hear the music</u></h2>
+    <p>click below play button to hear</p>
+    <audio
+      controls
+      src="/home/kamalnath/Downloads/Morning Cock Sound.mp3"
+    ></audio>
+    <br />
+    <h2><u>please watch the video</u></h2>
+    <p>click the given button to play the video</p>
+
+    <video
+      controls
+      width="300"
+      height="200"
+      src="/home/kamalnath/Downloads/Funny-Love-Animated-Video-Status-Video-Song-Status.mp4"
+    ></video>
+    <br />
+    <br />
+    <details>
+      <summary>click here</summary>
+      <p>
+        Epcot is a theme park at Walt Disney World Resort featuring exciting
+        attractions,
+        <del>pavilions, award-winning fireworks and seasonal</del> special
+        events.
+      </p>
+    </details>
+    <p>
+      <dfn>HTML is the standard markup language for creating web pages.</dfn
+      >HTML is the standard markup language for creating web pages.
+    </p>
+    <dialog open>
+      HTML is the standard markup language for creating web pages.
+    </dialog>
+    <br /><br /><br />
+    <p class="em">This is my<em>pencil</em></p>
+    <label for="meter">charger amount:</label>
+    <meter id="meter" value="5" min="0" max="10">5 out of 10</meter><br />
+    <address><q>created by kamalnath</q></address>
+    <br />
+
+    <footer style="border: 3px solid; font-style: italic">since 2014</footer>
+  </body>
+</html>

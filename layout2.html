@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>the simple layout</title>
+  </head>
+  <body>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        background-color: rgb(87, 116, 76);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+      header {
+        font-size: large;
+        color: green;
+        padding: 30px;
+        width: 100%;
+        background-color: rgb(235, 201, 160);
+        text-align: center;
+      }
+      nav {
+        float: left;
+        width: 30%;
+        height: 300px;
+        background: red;
+        padding: 20px;
+        word-spacing: 30px;
+      }
+      nav ul {
+        list-style: square;
+        padding: 0;
+        padding: 50px;
+      }
+      article {
+        float: right;
+        padding: 20px;
+        width: 70%;
+        height: 300px;
+        background-image: url("https://www.baltana.com/files/wallpapers-5/Light-Background-Desktop-Wallpaper-16371.jpg");
+      }
+      section {
+        display: table;
+        clear: both;
+        padding: 20px;
+      }
+      footer {
+        padding: 10px;
+        text-align: center;
+        background-color: aquamarine;
+        font-size: larger;
+        font-style: italic;
+      }
+      .card1 {
+        width: 27%;
+        float: left;
+        padding: 30px 15px;
+        background-color: gray;
+        text-align: center;
+        margin: 15px;
+      }
+      .card2 {
+        width: 35%;
+        float: left;
+        padding: 30px 20px;
+        background-color: green;
+        text-align: center;
+        margin: 15px;
+      }
+      .card3 {
+        width: 26%;
+        float: right;
+        padding: 30px 15px;
+        background-color: red;
+        text-align: center;
+        margin: 15px;
+      }
+      a {
+        margin: 10px;
+        background-color: azure;
+      }
+    </style>
+    <h2>css layout file</h2>
+    <p>
+      HTML element represents a section of a page whose purpose is to provide
+      navigation links, either within the current document or to other
+      documents. Common examples of navigation sections are menus, tables of
+      contents, and indexes.
+    </p>
+    <header>
+      <h1
+        style="
+          font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+            sans-serif;
+        "
+      >
+        <u>Good morning</u>
+      </h1>
+    </header>
+    <section>
+      <nav>
+        <a href="#">Games</a>
+        <a href="#">Music</a>
+        <a href="#">Education</a>
+        <ul>
+          <li>gold</li>
+          <li>diamond</li>
+          <li>silver</li>
+          <li>platinum</li>
+        </ul>
+      </nav>
+      <article>
+        <h4 style="background-color: rgb(252, 158, 158); text-align: center">
+          the article
+        </h4>
+        <p>
+          Machine learning (ML) is a type of artificial intelligence (AI) that
+          allows software applications to become more accurate at predicting
+          outcomes without being explicitly programmed to do so. Machine
+          learning algorithms use historical data as input to predict new output
+          values.
+        </p>
+        <br /><br />
+        <div class="card1"><div class="box">card1</div></div>
+        <div class="card2"><div class="box">card2</div></div>
+        <div class="card3"><div class="box">card3</div></div>
+      </article>
+    </section>
+    <footer>
+      <p>2014 since</p>
+    </footer>
+  </body>
+</html>

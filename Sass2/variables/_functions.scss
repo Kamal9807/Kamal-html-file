@@ -1,0 +1,5 @@
+@use "./color" as color;
+
+@function brand-colors($varient) {
+  @return map-get(color.$theme-color, $varient);
+}

@@ -1,0 +1,163 @@
+.alert, .alert-sucess, .alert-danger {
+  padding: 15px 20px;
+  border: 1px solid skyblue;
+  border-radius: 5px;
+  background-color: #8a8af3;
+}
+
+.alert-sucess {
+  background-color: palevioletred;
+}
+
+.alert-danger {
+  background-color: whitesmoke;
+}
+
+/* font-family: Times New Roman, Times, serif */
+.profile-picture {
+  background-image: url(../profile-picture/kamal);
+}
+
+article {
+  width: 40%;
+  float: left;
+  height: 300px;
+  padding: 20px;
+  background-color: green;
+  margin: 25px;
+  text-align: justify;
+  text-justify: inter-word;
+  font-family: "Times New Roman", Times, serif;
+}
+
+article .lion {
+  padding: 10px 200px 10px 255px;
+  margin: 10px;
+  float: left;
+  background-color: cornflowerblue;
+  text-align: justify;
+}
+
+article .tiger {
+  padding: 10px 102px;
+  margin: 10px;
+  float: left;
+  background-color: orange;
+}
+
+article .fox {
+  padding: 10px 102px;
+  margin: 10px;
+  float: left;
+  background-color: yellow;
+}
+
+section {
+  width: 40%;
+  float: left;
+  height: 300px;
+  padding: 20px 50px 20px 50px;
+  background-color: orange;
+  margin: 25px;
+}
+
+aside {
+  text-align: justify;
+  float: right;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 40px;
+  padding-top: -20px;
+  margin-bottom: 30px;
+  padding: -20px 10px 40px 10px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+footer {
+  padding: 30px;
+  font-size: larger;
+  font-display: swap;
+  text-align: center;
+  margin: 10px;
+  border: 2px solid;
+  border-color: black;
+  background-color: lightgrey;
+}
+
+.header {
+  text-align: center;
+  background-color: pink;
+  border-width: 1px;
+  border-style: dashed;
+}
+
+.header_link {
+  text-decoration: none;
+}
+
+.para {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: lightgreen;
+  padding: 1px;
+  border: 2px solid;
+  border-color: black;
+  border-radius: 5px;
+  text-align: justify;
+}
+
+* p {
+  color: black;
+}
+
+.h0 {
+  font-size: 0px;
+}
+
+.h1 {
+  font-size: 10px;
+}
+
+.h2 {
+  font-size: 20px;
+}
+
+.h3 {
+  font-size: 30px;
+}
+
+.h4 {
+  font-size: 40px;
+}
+
+.h5 {
+  font-size: 50px;
+}
+
+.h6 {
+  font-size: 60px;
+}
+
+.m-1 {
+  margin: 1rem;
+}
+
+.m-2 {
+  margin: 2rem;
+}
+
+.m-3 {
+  margin: 3rem;
+}
+
+.m-4 {
+  margin: 4rem;
+}
+
+.m-5 {
+  margin: 5rem;
+}
+
+.m-6 {
+  margin: 6rem;
+}
+/*# sourceMappingURL=Slayout.css.map */
