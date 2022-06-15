@@ -1,0 +1,80 @@
+header {
+  -webkit-box-shadow: 0px 3px 6px #00000029;
+          box-shadow: 0px 3px 6px #00000029;
+  opacity: 1;
+}
+
+.navbar {
+  height: 12%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.logo {
+  width: 150px;
+  cursor: pointer;
+  padding-left: 100px;
+}
+
+nav {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  text-align: right;
+  padding-left: 80px;
+  padding-right: 190px;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+}
+
+nav ul li a {
+  text-decoration: none;
+  padding: 20px;
+  color: #707070;
+}
+
+.img {
+  width: 300px;
+  background: transparent;
+  padding-top: 45px;
+  padding-left: 150px;
+  float: left;
+}
+
+.asideh1 {
+  padding-top: 52px;
+  float: left;
+  font-size: 50px;
+  text-align: left;
+  padding-left: 20px;
+  padding-bottom: -50px;
+  font-weight: bolder;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  text-transform: capitalize;
+}
+
+.para {
+  float: left;
+  font-size: 12px;
+  font: normal Roboto;
+  text-align: justify;
+  padding-left: 20px;
+}
+
+.greenpart {
+  float: left;
+  background-color: #4daf40;
+  padding: 10px;
+  padding-right: 1000px;
+  padding-top: 20px;
+  border-left: 30px;
+}
+/*# sourceMappingURL=Assignment.css.map */
