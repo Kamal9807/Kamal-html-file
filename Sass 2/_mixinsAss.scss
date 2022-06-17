@@ -8,9 +8,12 @@
 }
 
 @mixin img {
-  width: 210px;
-  margin-top: 50px;
-  padding-left: 60px;
-  float: left;
-  margin-bottom: 50px;
+  margin-top: 70px;
+  width: 200px;
+}
+
+@mixin bottompara {
+  font-size: 10px;
+  text-align: justify;
+  text-align: center;
 }
