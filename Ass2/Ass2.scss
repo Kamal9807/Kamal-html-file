@@ -1,0 +1,414 @@
+//variables
+@import "./Assvariables";
+@import "./mixinAss2";
+//top header
+.locimg {
+  float: left;
+  padding-left: 60px;
+}
+.locpara {
+  font-size: 11.5px;
+  color: map-get($theme-color, "darkblue");
+}
+.mailimg {
+  float: left;
+  padding-left: 40px;
+}
+.mailpara {
+  float: left;
+  padding-left: 4px;
+  padding-right: 100px;
+  font-size: 11.5px;
+  padding-top: 17px;
+  color: map-get($theme-color, "darkblue");
+}
+
+.nav1 {
+  padding-left: 9rem;
+  ul {
+    li {
+      list-style: none;
+      display: inline-block;
+      cursor: $cursor;
+    }
+  }
+}
+//header2
+.mount-marty-image {
+  float: left;
+  margin-left: 30px;
+}
+.logo {
+  cursor: $cursor;
+  width: 60px;
+}
+.nav2 {
+  ul {
+    li {
+      list-style: none;
+      display: inline-block;
+
+      a {
+        text-decoration: none;
+        padding: 10px;
+        color: map-get($theme-color, "darkblue");
+        font-weight: $font-weight;
+        font-size: 15px;
+      }
+      .but1 {
+        margin-left: 30px;
+        border-radius: 5px;
+        cursor: $cursor;
+        border: 2px;
+        padding: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      .but2 {
+        margin-left: 5px;
+        border-radius: 5px;
+        border: 2px solid;
+        background-color: map-get($theme-color, "white");
+        padding-top: 3px;
+        padding-bottom: 2.3px;
+        border-color: map-get($theme-color, "hashcolor");
+        color: map-get($theme-color, "hashcolor");
+      }
+    }
+  }
+}
+// analytic image
+.anaimgdiv {
+  padding-right: 250px;
+  padding-top: 40px;
+  .analyticimg {
+    float: right;
+    width: 380px;
+    background: transparent;
+  }
+}
+
+//section1
+.Become {
+  .Bec {
+    font-weight: $font-weight;
+    color: map-get($theme-color, "darkblue");
+    font-family: $font-poppins;
+  }
+}
+.learn {
+  float: left;
+  font-size: 50px;
+  padding-left: 60px;
+  .lea {
+    color: map-get($theme-color, "darkblue");
+    font-family: $font-Georgia;
+  }
+}
+.Getdiv {
+  padding-left: 145px;
+  .Getbutton {
+    float: left;
+    border-radius: 5px;
+    cursor: $cursor;
+    border: 2px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+.Readdiv {
+  padding-left: 265px;
+  .ReadButton {
+    float: left;
+    cursor: $cursor;
+    border: 2px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    background-color: map-get($theme-color, "hashcolor");
+  }
+}
+
+//bottom darkblue part
+footer {
+  background-color: map-get($theme-color, "darkblue");
+  margin-top: 320px;
+  margin-bottom: 50px;
+  padding-bottom: 40px;
+  border-radius: 7px;
+  .SuccDiv {
+    float: left;
+    padding-left: 10px;
+    padding-top: 10px;
+    .Succ {
+      background: transparent;
+    }
+  }
+  .upcomingDiv {
+    float: left;
+    margin-top: 40px;
+    .upcoming {
+      color: map-get($theme-color, "white");
+      padding-left: 30px;
+      font-size: 35px;
+      font-weight: $font-weight;
+      font-family: $font-Georgia;
+      em {
+        color: map-get($theme-color, "yellow");
+      }
+    }
+  }
+  .clock {
+    text-align: right;
+    font-size: 45px;
+    text-transform: uppercase;
+    font-family: $font-Georgia;
+    padding-right: 40px;
+    padding-top: 60px;
+    color: map-get($theme-color, "white");
+  }
+}
+
+//grid part
+.Toph1 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-family: $font-Georgia;
+  font-weight: $font-weight;
+  color: map-get($theme-color, "darkblue");
+}
+.subject {
+  margin-left: 40px;
+}
+//row
+
+//col1
+.col-3 {
+  border-style: solid;
+  border-color: map-get($theme-color, "hashcolor");
+  border-width: 1px;
+  margin-bottom: 40px;
+  border-radius: 6px;
+  margin-left: 65px;
+  margin-top: 90px;
+  cursor: $cursor;
+  .curdiv1 {
+    @include curdiv1;
+    background-image: url("http://127.0.0.1:5500/Ass2/Advance%20Design%2004/ux-designer-web-designer.png");
+    .curseraimg1 {
+      width: 37px;
+    }
+  }
+  .h61 {
+    font-weight: $font-weight;
+    margin-top: 20px;
+    color: map-get($theme-color, "darkblue");
+    padding-left: 10px;
+  }
+  .para1 {
+    font-size: 10px;
+    color: map-get($theme-color, "darkhash");
+    padding-left: 10px;
+  }
+
+  .curdiv2 {
+    @include curdiv1;
+    background-image: url("http://127.0.0.1:5500/Ass2/Advance%20Design%2004/why-ux-design-is-important-840x400.png");
+    .curserimg2 {
+      width: 37px;
+    }
+  }
+  .curdiv3 {
+    @include curdiv1;
+    background-image: url("http://127.0.0.1:5500/Ass2/Advance%20Design%2004/difference-between-ux-ui-ux-ui-min-6cd3a171087987d31ecdb67ad67c0ab8136242f7b4e476a0e509017aa8bbc755.png");
+
+    .curseraimg3 {
+      width: 37px;
+    }
+  }
+  .curdiv4 {
+    @include curdiv1;
+    background-image: url("http://127.0.0.1:5500/Ass2/Advance%20Design%2004/shutterstock_703336915.png");
+    .curseraimg4 {
+      width: 37px;
+    }
+  }
+  .curdiv5 {
+    @include curdiv1;
+    background-image: url("http://127.0.0.1:5500/Ass2/Advance%20Design%2004/ux-design-pillar-page-ux-overview.png");
+
+    .curseraimg5 {
+      width: 37px;
+    }
+  }
+  .curdiv6 {
+    @include curdiv1;
+    background-image: url("http://127.0.0.1:5500/Ass2/Advance%20Design%2004/what-does-a-ux-designer-do-header-image.png");
+    .curseraimg6 {
+      width: 37px;
+    }
+  }
+  .curdiv7 {
+    @include curdiv1;
+    background-image: url("http://127.0.0.1:5500/Ass2/Advance%20Design%2004/what-does-a-ux-ui-designer-do_860.png");
+
+    .curseraimg7 {
+      width: 37px;
+    }
+  }
+  .curdiv8 {
+    @include curdiv1;
+    background-image: url("http://127.0.0.1:5500/Ass2/Advance%20Design%2004/iStock_000081361619_Full.png");
+
+    .curseraimg8 {
+      width: 37px;
+    }
+  }
+  .curdiv9 {
+    @include curdiv1;
+    background-image: url("http://127.0.0.1:5500/Ass2/Advance%20Design%2004/UX_design_principles_jpg_-EtzLc2m.png");
+    .curseraimg9 {
+      width: 37px;
+    }
+  }
+}
+
+.colu2 {
+  @extend .col-3;
+  margin-left: 40px;
+  margin-top: 80px;
+}
+.colu3 {
+  @extend .colu2;
+}
+
+.col-3:hover {
+  transform: scale(1.06);
+  transition: transform 150ms cubic-bezier(0, 0, 0.38, 0.9);
+  transition-property: transform;
+  transition-duration: 150ms;
+  transition-timing-function: cubic-bezier(0, 0, 0.38, 0.9);
+  transition-delay: 0s;
+}
+//black image
+.overimg {
+  margin-left: 100px;
+  float: left;
+}
+.parent {
+  position: $position-relative;
+  top: 0;
+  left: 0;
+  margin-top: 80px;
+  padding-left: 300px;
+}
+.image1 {
+  position: $position-relative;
+  top: 0;
+  left: 0;
+  width: 90px;
+}
+.image2 {
+  position: $position-absolute;
+  top: 30px;
+  left: 30px;
+  width: 420px;
+}
+.bottomtext1 {
+  position: $position-absolute;
+  font-size: 18px;
+  top: 315px;
+  left: 70px;
+  font-weight: bolder;
+  color: map-get($theme-color, "lightblack");
+  background-color: map-get($theme-color, "purewhite");
+  padding-left: 120px;
+  padding-right: 130px;
+  padding-top: 9px;
+  border-radius: 5px;
+}
+.bottomtext2 {
+  position: $position-absolute;
+  top: 350px;
+  left: 170px;
+  color: map-get($theme-color, "darkhash");
+  font-size: small;
+  background-color: map-get($theme-color, "purewhite");
+  padding-left: 25px;
+}
+
+.blah2 {
+  float: right;
+  margin-right: 300px;
+  margin-top: 100px;
+  font-family: $font-Georgia;
+  font-weight: bolder;
+  color: map-get($theme-color, "darkblue");
+  mark {
+    color: map-get($theme-color, "yellow");
+    background-color: map-get($theme-color, "white");
+  }
+}
+
+.blapara {
+  float: right;
+  margin-right: 130px;
+  color: map-get($theme-color, "lightblack");
+  font-size: 15px;
+  font-family: $font-inter;
+}
+.smallh6 {
+  float: right;
+  margin-left: 300px;
+  margin-right: 373px;
+  margin-top: 20px;
+  font-family: $font-inter;
+  font-weight: bold;
+  color: map-get($theme-color, "darkblue");
+}
+.Simg {
+  float: left;
+  margin-left: 500px;
+  margin-top: 10px;
+  width: 60px;
+}
+.sh6 {
+  float: left;
+  font-size: smaller;
+  font-weight: bold;
+  padding: 20px 80px 10px 40px;
+  margin-top: 6px;
+  line-height: 2.5ch;
+  background-color: map-get($theme-color, "white");
+  border-radius: 5px;
+  font-family: $font-inter;
+  color: map-get($theme-color, "darkblue");
+}
+.sp {
+  float: left;
+  font-size: x-small;
+  margin-left: 30px;
+  font-weight: lighter;
+  color: map-get($theme-color, "darkhash");
+}
+.aside {
+  float: left;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  background-image: url("http://127.0.0.1:5500/Ass2/Advance%20Design%2004/map.png");
+  background-repeat: no-repeat;
+  background-size: 600px;
+  background-position: center;
+  padding-right: 280px;
+  padding-left: 140px;
+  padding-top: 50px;
+  .mapimg {
+    width: 140px;
+  }
+  .maph1 {
+    width: 183px;
+    padding-left: 30px;
+  }
+}

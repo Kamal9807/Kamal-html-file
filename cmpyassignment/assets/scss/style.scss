@@ -1,0 +1,68 @@
+//form
+.form-label {
+  color: rgb(88, 86, 86);
+}
+.form-control {
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+}
+.btn {
+  background-color: rgb(245, 79, 79);
+  padding: 10px 30px;
+  border-radius: 25px;
+  color: aliceblue;
+}
+//orange image
+.parent {
+  position: relative;
+  top: 0;
+  left: 0;
+  margin-top: 80px;
+
+  .image1 {
+    position: absolute;
+    top: 0;
+    left: 20;
+    padding-left: 100px;
+    margin-left: 30px;
+    width: 850px;
+    background: transparent;
+  }
+  .image2 {
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    width: 1100px;
+    background: transparent;
+  }
+  .image3 {
+    position: relative;
+    top: 30px;
+    width: 80px;
+    margin-left: 480px;
+  }
+  .orandiv {
+    position: relative;
+    top: 70px;
+    .orangepara {
+      color: white;
+      font-size: 12px;
+      text-align: center;
+    }
+    .image4 {
+      position: relative;
+      margin-left: 480px;
+      width: 70px;
+    }
+    .orangdiv2 {
+      margin-top: 10px;
+      .orangepara2 {
+        color: white;
+        font-size: 12px;
+        text-align: center;
+        padding-right: 52px;
+      }
+    }
+  }
+}

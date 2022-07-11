@@ -1,0 +1,215 @@
+@import "partials/partials";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+  color: map-get($map: $alert-colors, $key: "primary");
+  opacity: 1;
+  letter-spacing: 0px;
+}
+/*First-section*/
+#head {
+  .nav-section {
+    .logo {
+      width: 8rem;
+      margin-left: 80px;
+    }
+    .menu {
+      font-size: 13px;
+      font-weight: 500px;
+      font-family: "Montserrat", sans-serif;
+      margin-right: 70px;
+      top: 56px;
+      ul li {
+        padding: 5px;
+        a:hover {
+          color: map-get($map: $alert-colors, $key: "hover");
+        }
+      }
+    }
+  }
+  .jumbotron .banner {
+    background-image: url("../images/Banner02.png");
+    background-size: auto;
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
+    h1 {
+      text-align: center;
+      font-size: 60px;
+      font-weight: bold;
+      font-family: "Montserrat", sans-serif;
+      margin-left: 500px;
+      line-height: 100px;
+      color: map-get($map: $alert-colors, $key: "secondary");
+    }
+  }
+}
+/*Second-section*/
+#our-clients .logo-area {
+  margin-top: 100px;
+  align-items: center;
+  h3 {
+    @include heading();
+  }
+  ul li {
+    display: inline-block;
+    margin-left: -20px;
+    margin-top: 40px;
+    padding: 2px 0;
+    img {
+      width: 70%;
+      height: 70%;
+    }
+  }
+}
+/*Third-section*/
+#we-offer .row {
+  margin: 100px 30px;
+  .col-first h2 {
+    @include heading();
+    @include left-style;
+    margin-bottom: 20px;
+  }
+  p {
+    font-size: 12px;
+    font-weight: 500px;
+    font-family: "Montserrat", sans-serif;
+    opacity: 2;
+    @include left-style;
+    line-height: 25px;
+    padding: 3px;
+  }
+
+  .col-second {
+    @include left-style;
+    padding-right: 50px;
+    @include offer-content();
+    h2 {
+      @include heading();
+      margin-left: 30px;
+      margin-bottom: 20px;
+    }
+    .create {
+      @include offer-img-align();
+      img {
+        @include offer-img-size();
+      }
+    }
+  }
+  .col-third {
+    @include left-style;
+    margin-top: 60px;
+    @include offer-content();
+    .create {
+      @include offer-img-align();
+      img {
+        @include offer-img-size();
+      }
+    }
+  }
+}
+
+/*Fourth-section*/
+#leadership-team {
+  h3 {
+    @include heading();
+  }
+  .row {
+    margin: 50px 50px;
+    .card-content {
+      width: 18rem;
+      margin-top: 10px;
+      h2 {
+        font-size: 22px;
+        font-weight: bold;
+        margin-top: 10px;
+      }
+      h4 {
+        font-size: 15px;
+      }
+    }
+  }
+}
+/*Fifth-section*/
+#industrial-expertise .industrial-exp {
+  h2 {
+    @include heading();
+    text-align: center;
+    margin: 50px 0;
+  }
+  ul {
+    display: grid !important;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1em;
+    li {
+      display: inline-block;
+      align-items: center;
+      img {
+        width: 6rem;
+      }
+      h4 {
+        font-size: 18px;
+        font-weight: bold;
+      }
+    }
+  }
+}
+/*Testimony*/
+.heading {
+  @include heading();
+  text-align: center;
+  margin: 50px 0;
+}
+.parent {
+  position: relative;
+  top: 0;
+  left: 0;
+  margin-top: 80px;
+  .image1 {
+    position: absolute;
+    top: 0;
+    left: 20;
+    padding-left: 100px;
+    margin-left: 30px;
+    width: 850px;
+    background: transparent;
+  }
+  .image2 {
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    width: 1100px;
+    background: transparent;
+  }
+  .image3 {
+    position: relative;
+    top: 30px;
+    width: 80px;
+    margin-left: 480px;
+  }
+  .orandiv {
+    position: relative;
+    top: 70px;
+    .orangepara {
+      color: white;
+      font-size: 12px;
+      text-align: center;
+    }
+    .image4 {
+      position: relative;
+      margin-left: 480px;
+      width: 70px;
+    }
+    .orangdiv2 {
+      margin-top: 10px;
+      .orangepara2 {
+        color: white;
+        font-size: 12px;
+        text-align: center;
+        padding-right: 52px;
+      }
+    }
+  }
+}

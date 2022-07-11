@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25">
+  <g id="mobile" transform="translate(-1241 -5255)">
+    <rect id="Rectangle_2483" data-name="Rectangle 2483" width="25" height="25" transform="translate(1241 5255)" fill="none"/>
+    <g id="phone_iphone_black_24dp" transform="translate(1242 5256)">
+      <path id="Path_18624" data-name="Path 18624" d="M0,0H24V24H0Z" fill="none"/>
+      <path id="Path_18625" data-name="Path 18625" d="M15.5,1h-8A2.5,2.5,0,0,0,5,3.5v17A2.5,2.5,0,0,0,7.5,23h8A2.5,2.5,0,0,0,18,20.5V3.5A2.5,2.5,0,0,0,15.5,1Zm-4,21A1.5,1.5,0,1,1,13,20.5,1.5,1.5,0,0,1,11.5,22ZM16,18H7V4h9Z"/>
+    </g>
+  </g>
+</svg>

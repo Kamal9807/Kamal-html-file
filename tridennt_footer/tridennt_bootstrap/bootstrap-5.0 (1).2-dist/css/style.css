@@ -1,0 +1,74 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300&family=Roboto:ital@0;1&display=swap');
+
+
+.footer{
+    background-image: url("./footer-map-80b0cb4fab6933f0cf7d485070e2fdd5\ copy.png");
+    background-image: no-repeat;
+    width: 100%;
+    height: 100%;
+   
+}
+.footer-about .footer-logo p{
+    margin-bottom: 220px;
+}
+
+.social{
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.social li{
+    list-style: none;
+}
+.social li a{
+    display: inline-block;
+    width: 0px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 40px;
+
+}
+a{
+    text-decoration: none;
+}
+ul{
+    padding-left: 0px;
+}
+.footer-widget h6{
+    margin-bottom: 10px;
+}
+.footer-widget ul li{
+    line-height: 36px;
+    list-style: none;
+}
+.footer-widget ul li a{
+    color: black;
+    font-size: 14px;
+    
+}
+
+.offset-lg-12 {
+    margin-left: 23px;
+  }
+
+  .col-lg-13 {
+    flex: 0 0 auto;
+    width: 11%;
+  }
+
+  .col-lg-14 {
+    flex: 0 0 auto;
+    width: 18%;
+  }
+
+  .row1 {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 100p;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * 0);
+    margin-right: calc(var(--bs-gutter-x) * 0);
+    margin-left: calc(var(--bs-gutter-x) * 0);
+  }*/

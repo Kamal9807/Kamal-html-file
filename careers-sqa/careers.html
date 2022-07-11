@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+    crossorigin="anonymous"
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,800;1,400&family=Rubik:ital,wght@0,300;0,700;1,300&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="./assets/scss/style.css" />
+  <body class="container">
+    <h1 class="h1 mt-2 mb-4">Send us your CV</h1>
+    <section class="form">
+      <form>
+        <label class="form-font" for="name"> Name*</label><br />
+        <input class="form-box" type="text" id="name" size="40" /><br />
+        <label class="form-font" for="email"> Email*</label><br />
+        <input class="form-box" type="text" id="email" size="40" /><br />
+        <label class="form-font" for="mobile">Mobile No*</label><br />
+        <input class="form-box" type="tel" id="number" size="40" /><br />
+        <label class="form-font" for="location">Current Location*</label><br />
+        <input class="form-box" type="text" id="location" size="40" /><br />
+
+        <label class="form-font" for="tentacles">Total Experience *</label
+        ><br />
+        <input
+          class="form-box"
+          type="number"
+          id="tentacles"
+          name="tentacles"
+          min="1"
+          max="10"
+        />
+        <br />
+
+        <label class="form-font" for="name">Upload Resume *</label><br />
+        <input class="form-box" type="file" id="name" />
+        <p class="form-box">
+          Supported Formats: doc,docx,pdf,rtf, Max file size: 3 MB
+        </p>
+        <input class="form-box" type="checkbox" id="name" />
+        <label class="form-font" for="name"
+          >I agree to the Terms and Conditions</label
+        ><br />
+        <label for="Submit"></label>
+        <input class="submit mt-3" type="button" value="Submit" />
+      </form>
+    </section>
+    <!--card1-->
+    <section class="monster-naukri">
+      <div class="col-2 card shadow-lg p-3 mb-5 bg-white rounded">
+        <img
+          src="./assets/images/monsterjob-newpages.svg"
+          alt="monster-image"
+        />
+        <p class="card-text">
+          Submit <br />
+          Monster Profile
+        </p>
+      </div>
+      <p>-or</p>
+      <div class="col-2 card shadow-lg p-3 mb-5 bg-white rounded">
+        <img src="./assets/images/naukri_Logo.svg" alt="naukri-image" />
+        <p class="card-text">
+          Submit <br />
+          Naukri Profile
+        </p>
+      </div>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,32 @@
+h1 {
+  font-weight: bold;
+  color: #42495b;
+}
+
+.form {
+  float: left;
+  .form-box {
+    border-color: #e6e6e6;
+    border-width: 1px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+  .form-font {
+    color: #42495b;
+  }
+  .submit {
+    background-color: #fe6258;
+    border: none;
+    padding: 8px 30px;
+    border-radius: 2px;
+  }
+}
+//card
+.card-text {
+  color: #42495b;
+  font-family: Montserrat, Regular;
+  text-align: center;
+  font-size: small;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}

@@ -1,0 +1,10 @@
+body {
+  background-color: #f78181;
+}
+
+@media screen and (min-width: 480px) {
+  body {
+    background-color: green;
+  }
+}
+/*# sourceMappingURL=media.css.map */

@@ -1,0 +1,185 @@
+header {
+  -webkit-box-shadow: 0px 3px 6px #00000029;
+          box-shadow: 0px 3px 6px #00000029;
+  opacity: 1;
+}
+
+header .navbar {
+  height: 12%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .navbar .logo {
+  width: 150px;
+  cursor: pointer;
+  padding-left: 50px;
+}
+
+header .navbar nav {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  text-align: right;
+  padding-left: 80px;
+  padding-right: 40px;
+}
+
+header .navbar nav ul li {
+  list-style: none;
+  display: inline-block;
+}
+
+header .navbar nav ul li a {
+  text-decoration: none;
+  padding: 20px;
+  color: #707070;
+}
+
+.img {
+  width: 340px;
+  background: transparent;
+  padding-top: 45px;
+  padding-left: 80px;
+  float: left;
+}
+
+.asideh1 {
+  padding-top: 70px;
+  float: left;
+  font-size: 54px;
+  text-align: left;
+  padding-left: 20px;
+  padding-bottom: -50px;
+  font-weight: bolder;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  text-transform: capitalize;
+}
+
+.para1 {
+  float: left;
+  font-size: 12px;
+  font: normal Roboto;
+  text-align: justify;
+  padding-left: 20px;
+  line-height: 1.4;
+}
+
+.para2 {
+  float: left;
+  font-size: 12px;
+  font: normal Roboto;
+  text-align: justify;
+  padding-left: 20px;
+  line-height: 1.4;
+}
+
+.para3 {
+  float: left;
+  font-size: 12px;
+  font: normal Roboto;
+  text-align: justify;
+  padding-left: 20px;
+  line-height: 1.4;
+}
+
+.greenpart {
+  margin-top: 50px;
+  background-color: #4daf40;
+  padding-left: 40px;
+  padding-right: 40px;
+  text-align: center;
+  float: left;
+  padding-bottom: 45px;
+}
+
+.greenpart .greenh1 {
+  color: #ffffff;
+  font-size: 50px;
+  text-transform: capitalize;
+}
+
+.greenpart .greenp {
+  color: #ffffff;
+  font-size: 12px;
+  padding-left: 60px;
+  padding-right: 60px;
+  text-align: justify;
+  text-align: center;
+}
+
+.img1 {
+  margin-top: 70px;
+  width: 200px;
+  padding-left: 40px;
+  padding-right: 55px;
+}
+
+.img2, .img3 {
+  margin-top: 70px;
+  width: 200px;
+}
+
+.img4 {
+  margin-top: 70px;
+  width: 200px;
+  padding-right: 20px;
+}
+
+.bottomimgh1 {
+  padding-left: 70px;
+  text-transform: capitalize;
+}
+
+.bottomimgh2 {
+  padding-left: 28px;
+  text-transform: capitalize;
+}
+
+.bottomimgh3 {
+  padding-left: 30px;
+  text-transform: capitalize;
+}
+
+.bottomimgh4 {
+  padding-left: 30px;
+  text-transform: capitalize;
+}
+
+.bottompara1 {
+  font-size: 10px;
+  text-align: justify;
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 64px;
+}
+
+.bottompara2 {
+  font-size: 10px;
+  text-align: justify;
+  text-align: center;
+  padding-left: 8px;
+  padding-right: 68px;
+}
+
+.bottompara3 {
+  font-size: 10px;
+  text-align: justify;
+  text-align: center;
+  padding-left: 9px;
+  padding-right: 63px;
+}
+
+.bottompara4 {
+  font-size: 10px;
+  text-align: justify;
+  text-align: center;
+  padding-left: 8px;
+  padding-right: 65px;
+}
+/*# sourceMappingURL=Assignment.css.map */

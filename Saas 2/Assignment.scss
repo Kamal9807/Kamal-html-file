@@ -1,0 +1,150 @@
+@import "/mixinsAss";
+@import "/colorAss";
+
+//variables
+$transform: capitalize;
+
+header {
+  box-shadow: 0px 3px 6px map-get($theme-color, "header");
+  opacity: 1;
+  .navbar {
+    height: 12%;
+    display: flex;
+    align-items: center;
+    .logo {
+      width: 150px;
+      cursor: pointer;
+      padding-left: 50px;
+    }
+    nav {
+      flex: 1;
+      text-align: right;
+      padding-left: 80px;
+      padding-right: 40px;
+
+      ul {
+        li {
+          list-style: none;
+          display: inline-block;
+
+          a {
+            text-decoration: none;
+            padding: 20px;
+            color: #707070;
+          }
+        }
+      }
+    }
+  }
+}
+
+//section
+
+.img {
+  width: 340px;
+  background: transparent;
+  padding-top: 45px;
+  padding-left: 80px;
+  float: left;
+}
+
+//asides
+
+.asideh1 {
+  padding-top: 70px;
+  float: left;
+  font-size: 54px;
+  text-align: left;
+  padding-left: 20px;
+  padding-bottom: -50px;
+  font-weight: bolder;
+  box-shadow: none;
+  text-transform: $transform;
+}
+.para1 {
+  @include para;
+}
+.para2 {
+  @include para;
+}
+.para3 {
+  @include para;
+}
+//greenpart
+.greenpart {
+  margin-top: 50px;
+  background-color: map-get($theme-color, "green");
+  padding-left: 40px;
+  padding-right: 40px;
+  text-align: center;
+  float: left;
+  padding-bottom: 45px;
+
+  .greenh1 {
+    color: map-get($theme-color, "greenh1");
+    font-size: 50px;
+    text-transform: $transform;
+  }
+  .greenp {
+    color: map-get($theme-color, "greenh1");
+    font-size: 12px;
+    padding-left: 60px;
+    padding-right: 60px;
+    text-align: justify;
+    text-align: center;
+  }
+}
+
+//image part
+.img1 {
+  @include img;
+  padding-left: 40px;
+  padding-right: 55px;
+}
+
+.img2 {
+  @include img;
+}
+.img3 {
+  @extend .img2;
+}
+.img4 {
+  @include img;
+  padding-right: 20px;
+}
+.bottomimgh1 {
+  padding-left: 70px;
+  text-transform: $transform;
+}
+.bottomimgh2 {
+  padding-left: 28px;
+  text-transform: $transform;
+}
+.bottomimgh3 {
+  padding-left: 30px;
+  text-transform: $transform;
+}
+.bottomimgh4 {
+  padding-left: 30px;
+  text-transform: $transform;
+}
+.bottompara1 {
+  @include bottompara;
+  padding-left: 50px;
+  padding-right: 64px;
+}
+.bottompara2 {
+  @include bottompara;
+  padding-left: 8px;
+  padding-right: 68px;
+}
+.bottompara3 {
+  @include bottompara;
+  padding-left: 9px;
+  padding-right: 63px;
+}
+.bottompara4 {
+  @include bottompara;
+  padding-left: 8px;
+  padding-right: 65px;
+}
